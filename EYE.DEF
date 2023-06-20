@@ -1,0 +1,9 @@
+NAME             Eye
+DESCRIPTION      'Eye Application'
+EXETYPE          WINDOWS
+STUB             'winstub.exe'
+CODE             PRELOAD MOVEABLE DISCARDABLE
+DATA             PRELOAD MOVEABLE MULTIPLE
+HEAPSIZE         1024
+STACKSIZE        5120
+EXPORTS          EyeWndProc @1
